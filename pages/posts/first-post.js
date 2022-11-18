@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 // pages 폴더 아래의 폴더 경로가 url로 이루어진다.
 const FirstPost = () => {
@@ -8,6 +9,7 @@ const FirstPost = () => {
       <h2>
         <Link href="/">Back to home</Link>
       </h2>
+      <Image src="/images/example.jpg" width={200} height={200} alt="profile" />
     </>
   );
 };
