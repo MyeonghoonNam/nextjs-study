@@ -10,7 +10,7 @@ const Home = () => {
         <title>{siteTitle}</title>
       </Head>
       <section className={utilStyles.headingMd}>
-        <p>[Your Self Introduction]</p>
+        <p>Hi~ There~!</p>
         <p>
           (This is a sample website{" "}
           <Link href="/posts/first-post">my first post</Link>.)
