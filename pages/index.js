@@ -23,10 +23,6 @@ const Home = ({ allPostsData }) => {
 
       <section className={utilStyles.headingMd}>
         <p>Hi~ There~!</p>
-        <p>
-          (This is a sample website{" "}
-          <Link href="/posts/first-post">my first post</Link>.)
-        </p>
       </section>
 
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
@@ -36,7 +32,7 @@ const Home = ({ allPostsData }) => {
             <li className={utilStyles.listItem} key={id}>
               {title}
               <br />
-              {id}
+              <Link href={`/posts/${id}`}>{id}</Link>
               <br />
               {date}
             </li>
